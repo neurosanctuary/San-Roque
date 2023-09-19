@@ -1,0 +1,74 @@
+body {
+    background-color: #141414;
+    font-family: monospace;
+    text-align: center;
+    cursor: url('cur.png'), default;
+    background-image: url(287.gif);
+    background-repeat: repeat-xy; 
+  }
+  
+h1 {
+  font-size: 40px;
+  color: rgb(255, 127, 127);
+}
+p {
+  color: white;
+}
+a {
+  color: #ff0066;
+}
+.background{
+  background-color: #141414;
+  width: 900px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main{
+  width: 700px;
+  overflow-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textbox {
+  border-style: dashed;
+  width: 400px;
+  color: white;
+  border: 5px solid rgb(255, 127, 127);
+  margin: 30px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tb1 {
+  width: 200px;
+  color: white;
+  text-align: left;
+  float:left;
+  overflow-wrap: break-word;
+
+}
+.tb2 {
+  width: 200px;
+  color: white;
+  text-align: right;
+  float:right;
+}
+.break {
+  margin: 40px;
+  height: 10px;
+  color: white;
+  text-align: center;
+  float:center;
+}
+.what {
+  margin: 10px;
+  height: 10px;
+  color: white;
+  text-align: center;
+  float:center;
+}
+.cursor {
+  pointer-events: none;
+}
