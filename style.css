@@ -1,6 +1,7 @@
 body {
     background-color: #fdc177;
     font-family: monospace;
+    font-size: 13px;
     text-align: center;
     cursor: url('cur.png'), default;
     background-image: url(287.gif);
@@ -8,14 +9,14 @@ body {
   }
   
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(255, 127, 127);
 }
 p {
-  color: white;
+  color: rgba(33, 18, 3, 0.669);
 }
 a {
-  color: #ff0066;
+  color: #d73f0c;
 }
 .background{
   background-color: #141414;
