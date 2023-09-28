@@ -1,76 +1,89 @@
 body {
-    background-color: #fdc177;
-    font-family: monospace;
-    font-size: 13px;
-    text-align: center;
-    cursor: url('cur.png'), default;
-    background-image: url(repeat.jpg);
-    background-repeat: repeat-xy; 
-  }
-  
+  background-color: #019992;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  background-image: url(repeat.jpg);
+  background-repeat: repeat-xy; 
+}
 h1 {
-  font-size: 50px;
-  color: rgb(255, 127, 127);
+  color: #a4583f;
+  text-align: left;
 }
 p {
-  color: rgba(33, 18, 3, 0.669);
+color: rgba(33, 18, 3, 0.669);
 }
 a {
-  color: #d73f0c;
+color: #d73f0c;
 }
 .background{
-  background-color: #fdc177;
-  width: 1100px;
-  height: auto;
+background-color: #ffdcb4;
+width: 1000px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid #ff7f59;
+margin-top: 15px;
+margin-bottom: 15px;
+padding: 25px;
+padding-top: 5px;
+border-style: dashed;
+justify-items: center;
+
+}
+
+.inside{
+  background-color: #ffffff;
+width: 900px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alone{
+  display: grid;
+  grid-template-columns: 255px 575px;
+  grid-template-rows: 150px 200px 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  place-items: center;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #6b431f;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 25px;
-    border-style: dashed;
+}
+        
+      .alone1 { grid-area: 1 / 1 / 5 / 2; }
+      .alone2 { grid-area: 1 / 2 / 2 / 3; }
+      .alone3 { grid-area: 2 / 2 / 3 / 3; }
+      .alone4 { grid-area: 3 / 2 / 4 / 3; }
+      .alone5 { grid-area: 4 / 2 / 5 / 3; }
+
+.biscuit{
+  display: grid;
 }
 
+.dust{
+  display: grid;
+}
+.poppy{
+  display: grid;
+} 
 
+.you{
+  display: grid;
+}
 
-.textbox {
-  border-style: dashed;
-  width: 400px;
-  color: white;
-  border: 5px solid rgb(255, 127, 127);
-  margin: 30px;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.ditch{
+  display: grid;
 }
-.tb1 {
-  width: 200px;
-  color: white;
-  text-align: left;
-  float:left;
-  overflow-wrap: break-word;
 
+.town{
+  display: grid;
 }
-.tb2 {
-  width: 200px;
-  color: white;
-  text-align: right;
-  float:right;
+
+.poodle{
+  display: grid;
 }
-.break {
-  margin: 40px;
-  height: 10px;
-  color: white;
-  text-align: center;
-  float:center;
-}
-.what {
-  margin: 10px;
-  height: 10px;
-  color: white;
-  text-align: center;
-  float:center;
-}
-.cursor {
-  pointer-events: none;
+
+.places{
+  display: grid;
 }
