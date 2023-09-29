@@ -9,6 +9,7 @@ body {
 h1 {
   color: #a4583f;
   text-align: left;
+  font-size:20px
 }
 p {
 color: rgba(33, 18, 3, 0.669);
@@ -33,11 +34,12 @@ justify-items: center;
 }
 
 .inside{
-  background-color: #ffffff;
+  display: grid;
 width: 900px;
 height: auto;
 margin-left: auto;
 margin-right: auto;
+padding-top: 0px;
 }
 
 .alone{
@@ -58,12 +60,46 @@ margin-right: auto;
       .alone5 { grid-area: 4 / 2 / 5 / 3; }
 
 .biscuit{
-  display: grid;
+   display: grid;
+  grid-template-columns: 300px 500px;
+  grid-template-rows: 50px 400px 50px 100px 75px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "biscuit1 ."
+    "biscuit2 biscuit2"
+    ". biscuit3"
+    "biscuit4 ."
+    ". ."; 
 }
 
+    .biscuit1 { grid-area: biscuit1; 
+        text-align: left;}
+    .biscuit2 { grid-area: biscuit2; }
+    .biscuit3 { grid-area: biscuit3; 
+      text-align: right;}
+    .biscuit4 { grid-area: biscuit4; }
+
 .dust{
-  display: grid;
+  display: grid; 
+  grid-template-columns: 500px 50px 300px; 
+  grid-template-rows: 100px 100px 200px; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . dust2"
+    "dust1 . dust2"
+    "dust4 dust3 dust3"
+    "dust5 dust6 dust6"
+    ". dust6 dust6" ; 
 }
+    .dust1 { grid-area: dust1; }
+    .dust2 { grid-area: dust2; }
+    .dust3 { grid-area: dust3; }
+    .dust4 { grid-area: dust4; }
+    .dust5 { grid-area: dust5; }
+    .dust6 { grid-area: dust6; }
+
+
 .poppy{
   display: grid;
 } 
@@ -84,6 +120,27 @@ margin-right: auto;
   display: grid;
 }
 
-.places{
-  display: grid;
+.places {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 220px 220px 0.7fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". stables stables office office ."
+    ". saloon saloon bankstore bankstore ."
+    ". . clocktower cemetery . ."; 
 }
+
+.textbox { grid-area: textbox; }
+
+.stables { grid-area: stables; }
+
+.office { grid-area: office;}
+
+.cemetery { grid-area: cemetery; align-self: end;}
+
+.clocktower { grid-area: clocktower; }
+
+.bankstore { grid-area: bankstore; }
+
+.saloon { grid-area: saloon;}
