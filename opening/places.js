@@ -14,14 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (list.includes("/clocktower/clocktower.html") && list.includes("/stables/stables.html") && list.includes("/bank/bank.html")) {
         //checks list if three locations are there, if they are....reveals cemetery
         document.getElementById("hiddenlink").style.display="block"
+        window.alert("Odd. Had I noticed that before?");
     }
-    if (page === "/cemetery/cemetery.html") {
-        /* this will reset the list once cemetery is visited*/
-        window.localStorage.setItem("list", "[]")
-    }
+
     if (list.includes("/cemetery/cemetery.html")) {
         /* this will reset the list once cemetery is visited*/
         window.localStorage.setItem("list", "[]")
+        document.getElementById("hiddenlink").style.display="none"
+        
     }
 
 })
