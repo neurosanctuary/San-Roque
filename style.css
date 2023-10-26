@@ -166,7 +166,12 @@ padding-top: 0px;
   background-color: #ffe3c4;
   padding: 1px;
 }
-
+.textboxpoodle{
+  height: auto;
+  width:200px;
+  background-color: hsl(0, 61%, 85%);
+  padding: 1px;
+}
 .ditch{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
