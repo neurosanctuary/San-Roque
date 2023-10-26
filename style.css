@@ -1,9 +1,9 @@
 body {
-  background-color: #019992;
+  background-color: #ffcb8f;
   font-family: monospace;
   font-size: 16px;
   text-align: center;
-  background-image: url(repeat.jpg);
+  background-image: url(repeat.png);
   background-repeat: repeat-xy; 
 }
 h1 {
