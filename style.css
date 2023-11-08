@@ -18,6 +18,15 @@ a {
 color: #d73f0c;
 }
 
+.lilbox{
+  background-color: #ffdcb4;
+  width: 500px;
+  font-size: 13px;
+  height: auto;
+  margin-left: auto;
+margin-right: auto;
+}
+
 .background{
 background-color: #ffdcb4;
 width: 1000px;

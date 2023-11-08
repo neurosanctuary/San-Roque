@@ -1,0 +1,34 @@
+body {
+    background-color: #ffcb8f;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: center;
+    background-image: url(repeat.png);
+    background-repeat: repeat-xy; 
+  }
+  h1 {
+    color: #a4583f;
+    text-align: left;
+    font-size:20px
+  }
+  p {
+  color: rgba(33, 18, 3, 0.669);
+  }
+  a {
+  color: #d73f0c;
+  }
+  .background{
+    background-color: #ae71ff;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ff7f59;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px;
+    padding-top: 5px;
+    border-style: dashed;
+    justify-items: center;
+    
+    }
