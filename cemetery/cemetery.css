@@ -1,147 +1,51 @@
 body {
-    background-color: #019992;
-    font-family: monospace;
-    font-size: 16px;
-    text-align: center;
-    background-image: url(repeat.jpg);
-    background-repeat: repeat-xy; 
-  }
-  h1 {
-    color: #a4583f;
-    text-align: left;
-    font-size:20px
-  }
-  p {
-  color: rgba(33, 18, 3, 0.669);
-  }
-  a {
-  color: #d73f0c;
-  }
-  .background{
-  background-color: #ffdcb4;
-  width: 1000px;
+  background-color: #ee8787;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  background-image: url(repeat.png);
+  background-repeat: repeat-xy; 
+}
+h1 {
+  color: #a82828;
+  text-align: left;
+  font-size:20px
+}
+p {
+color: rgba(33, 18, 3, 0.669);
+}
+a {
+color: #ff0a53;
+}
+
+.background{
+background-color: #ffb199;
+width: 1000px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid #ffe8ac;
+margin-top: 15px;
+margin-bottom: 15px;
+padding: 25px;
+padding-top: 5px;
+border-style: dashed;
+justify-items: center;
+
+}
+
+.inside{
+  display: grid;
+width: 900px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+}
+
+.textbox{
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid #ff7f59;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 25px;
-  padding-top: 5px;
-  border-style: dashed;
-  justify-items: center;
-  
-  }
-  
-  .inside{
-    display: grid;
-  width: 900px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0px;
-  }
-  
-  .alone{
-    display: grid;
-    grid-template-columns: 255px 575px;
-    grid-template-rows: 150px 200px 100px;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px;
-    place-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-          
-        .alone1 { grid-area: 1 / 1 / 5 / 2; }
-        .alone2 { grid-area: 1 / 2 / 2 / 3; }
-        .alone3 { grid-area: 2 / 2 / 3 / 3; }
-        .alone4 { grid-area: 3 / 2 / 4 / 3; }
-        .alone5 { grid-area: 4 / 2 / 5 / 3; }
-  
-  .biscuit{
-     display: grid;
-    grid-template-columns: 300px 500px;
-    grid-template-rows: 50px 400px 50px 100px 75px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "biscuit1 ."
-      "biscuit2 biscuit2"
-      ". biscuit3"
-      "biscuit4 ."
-      ". ."; 
-  }
-  
-      .biscuit1 { grid-area: biscuit1; 
-          text-align: left;}
-      .biscuit2 { grid-area: biscuit2; }
-      .biscuit3 { grid-area: biscuit3; 
-        text-align: right;}
-      .biscuit4 { grid-area: biscuit4; }
-  
-  .dust{
-    display: grid; 
-    grid-template-columns: 500px 50px 300px; 
-    grid-template-rows: 100px 100px 200px; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". . dust2"
-      "dust1 . dust2"
-      "dust4 dust3 dust3"
-      "dust5 dust6 dust6"
-      ". dust6 dust6" ; 
-  }
-      .dust1 { grid-area: dust1; }
-      .dust2 { grid-area: dust2; }
-      .dust3 { grid-area: dust3; }
-      .dust4 { grid-area: dust4; }
-      .dust5 { grid-area: dust5; }
-      .dust6 { grid-area: dust6; }
-  
-  
-  .poppy{
-    display: grid;
-  } 
-  
-  .you{
-    display: grid;
-  }
-  
-  .ditch{
-    display: grid;
-  }
-  
-  .town{
-    display: grid;
-  }
-  
-  .poodle{
-    display: grid;
-  }
-  
-  .places {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 220px 220px 0.7fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". stables stables office office ."
-      ". saloon saloon bankstore bankstore ."
-      ". . clocktower cemetery . ."; 
-  }
-  
-  .textbox { grid-area: textbox; }
-  
-  .stables { grid-area: stables; }
-  
-  .office { grid-area: office;}
-  
-  .cemetery { grid-area: cemetery; align-self: end;}
-  
-  .clocktower { grid-area: clocktower; }
-  
-  .bankstore { grid-area: bankstore; }
-  
-  .saloon { grid-area: saloon;}
-  
+  width:200px;
+  background-color: #ffe3c4;
+  padding: 1px;
+}
