@@ -49,9 +49,66 @@ body {
     background-color: #ffe3c4;
     padding: 1px;
   }
+  
   .textboxpoodle{
     height: auto;
     width:200px;
     background-color: #ffc7ba;
     padding: 1px;
   }
+
+  .stables {
+    display: grid; 
+    grid-template-columns: 1fr 300px 120px 100px 100px 100px 1fr; 
+    grid-template-rows: 360px 80px 250px 200px 100px 400px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "stables1 stables1 stables1 stables1 stables1 stables1 stables1"
+    ". stables2 stables2 stables2 stables2 stables2 ."
+    ". stables3 stables3 . stables4 stables4 ."
+    "stables5 stables5 stables5 . . . ."
+    "stables5 stables5 stables5 . stables6 stables6 stables6"
+    "stables5 stables5 stables5 . . . ."; 
+}
+  .stables1 { grid-area: stables1; }
+  .stables2 { grid-area: stables2; }
+  .stables3 { grid-area: stables3; }
+  .stables4 { grid-area: stables4; }
+  .stables5 { grid-area: stables5; }
+  .stables6 { grid-area: stables6; }
+
+  .scenario {  display: grid;
+    grid-template-columns: 150px 210px 100px 55px 100px 150px;
+    grid-template-rows: 150px 200px 100px 250px 50px 400px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  .scenario1 { grid-area: 1 / 1 / 5 / 8; }
+  .scenario2 { grid-area: 2 / 3 / 4 / 7; }
+  .scenario6 { grid-area: 1 / 1 / 2 / 3; }
+  .scenario3 { grid-area: 4 / 5 / 5 / 7; }
+  .scenario4 { grid-area: 5 / 2 / 6 / 7; }
+  .scenario5 { grid-area: 6 / 2 / 7 / 7; }
+
+  .unlucky {  display: grid;
+    grid-template-columns: 300px 100px 100px 100px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "unlucky1 unlucky1 . unlucky2 unlucky2"
+    "unlucky3 unlucky3 . unlucky4 unlucky4"
+    ". unlucky5 unlucky5 unlucky5 ."
+    ". unlucky6 unlucky6 unlucky6 ."
+    "unlucky7 unlucky7 . . ."
+    "unlucky7 unlucky7 . unlucky8 ."; 
+}
+.unlucky2 { grid-area: unlucky2; }
+.unlucky4 { grid-area: unlucky4; }
+.unlucky5 { grid-area: unlucky5; }
+.unlucky6 { grid-area: unlucky6; }
+.unlucky7 { grid-area: unlucky7; }
+.unlucky1 { grid-area: unlucky1; }
+.unlucky3 { grid-area: unlucky3; }
+.unlucky8 { grid-area: unlucky8;
+  margin-bottom: auto;}
