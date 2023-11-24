@@ -69,3 +69,109 @@ body {
     background-color: rgb(169, 206, 255);
     padding: 1px;
   }
+
+  .store {  display: grid;
+    grid-template-columns: 100px 100px 300px 300px 100px;
+    grid-template-rows: 100px 140px 100px 200px 90px 60px 50px 70px 80px 60px 70px 80px 100px 10px 10px 110px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .store1 { grid-area: 1 / 1 / 3 / 6; 
+  margin-right:auto;}
+  
+  .store2 { grid-area: 1 / 3 / 2 / 6; 
+  margin-left:380px;}
+  
+.store3 { grid-area: 3 / 1 / 4 / 6;}
+  
+.store4 { grid-area: 4 / 4 / 5 / 6; }
+  
+  .store5 { grid-area: 4 / 1 / 17 / 3; 
+    margin-top:100px; }
+  
+  .store6 { grid-area: 4 / 3 / 5 / 4; 
+    margin-top:50px; }
+  
+    .store7 { grid-area: 5 / 4 / 6 / 6; }
+  
+  .store8 { grid-area: 6 / 4 / 7 / 5; 
+  margin-left:70px;}
+  
+  .store9 { grid-area: 7 / 4 / 8 / 5; margin-left:70px;}
+  
+  .store10 { grid-area: 8 / 4 / 9 / 6; }
+  
+  .store11 { grid-area: 9 / 4 / 10 / 5; }
+  
+  .store12 { grid-area: 10 / 4 / 11 / 5; }
+  
+  .store13 { grid-area: 11 / 3 / 12 / 6; 
+  margin-left:auto;}
+  
+  .store14 { grid-area: 11 / 2 / 12 / 3; }
+  
+  .store16 { grid-area: 12 / 1 / 13 / 4; 
+  margin-right:80px;}
+  .store17 { grid-area: 13 / 1 / 14 / 4;
+    margin-right:80px; }
+  .store18 { grid-area: 14 / 1 / 15 / 4; font-size:40px;}
+  
+  
+.iask {
+  display: grid; 
+  grid-template-columns: 100px 200px 200px 300px 100px; 
+  grid-template-rows: 170px 80px 200px 100px 50px 70px 10px 80px 80px 10px 10px 100px 110px 100px 100px 100px; 
+  gap: 0px 0px; 
+}
+.iask1 { grid-area: 1 / 1 / 2 / 4; 
+margin-top:auto;}
+.iask2 { grid-area: 2 / 1 / 3 / 4; }
+.iask3 { grid-area: 3 / 1 / 4 / 4; }
+.iask4 { grid-area: 1 / 4 / 4 / 6; }
+.iask5 { grid-area: 4 / 1 / 10 / 6; }
+.iask6 { grid-area: 4 / 1 / 5 / 3; }
+.iask7 { grid-area: 5 / 2 / 6 / 4; }
+.iask8 { grid-area: 6 / 5 / 7 / 6; }
+.iask9 { grid-area: 8 / 3 / 9 / 5; }
+.iask10 { grid-area: 10 / 1 / 17 / 4; 
+margin-right:auto; margin-top:110px;}
+.iask11 { grid-area: 10 / 4 / 17 / 6; }
+.iask12 { grid-area: 10 / 2 / 13 / 5; 
+  margin-left:10px; margin-right:200px;}
+
+
+  .dream {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 300px 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .dream1 { grid-area: 1 / 1 / 6 / 6; }
+  .dream2 { grid-area: 1 / 1 / 2 / 6; }
+  .dream3 { grid-area: 2 / 3 / 3 / 6; }
+  .dream4 { grid-area: 3 / 1 / 4 / 4; }
+  .dream5 { grid-area: 4 / 3 / 5 / 6; }
+  .dream6 { grid-area: 5 / 2 / 6 / 5; }
+  .dream7 { grid-area: 6 / 2 / 7 / 5; }
+  .dream8 { grid-area: 7 / 1 / 14 / 2; }
+  .dream9 { grid-area: 7 / 5 / 14 / 6; }
+  .dream10 { grid-area: 7 / 2 / 8 / 5; }
+  .dream11 { grid-area: 8 / 2 / 9 / 5; }
+  .dream12 { grid-area: 9 / 2 / 10 / 5; }
+  .dream13 { grid-area: 10 / 2 / 11 / 5; }
+  .dream14 { grid-area: 11 / 2 / 12 / 5; }
+  .dream15 { grid-area: 12 / 2 / 13 / 5; }
+  .dream16 { grid-area: 13 / 2 / 14 / 5; }
+  .dream18 { grid-area: 14 / 2 / 15 / 5; }
+  .dream19 { grid-area: 15 / 2 / 16 / 5; }
+  .dream20 { grid-area: 16 / 2 / 17 / 5; }
+  .dream21 { grid-area: 17 / 2 / 18 / 5; }
+  .dream22 { grid-area: 18 / 2 / 19 / 5; }
+  .dream23 { grid-area: 19 / 2 / 20 / 5; }
+  .dream24 { grid-area: 20 / 2 / 21 / 5; }
+  .dream25 { grid-area: 14 / 1 / 21 / 2; }
+  .dream26 { grid-area: 14 / 5 / 21 / 6; }
+  .dream27 { grid-area: 21 / 1 / 22 / 2; }
+  .dream28 { grid-area: 21 / 5 / 22 / 6; }
+  .dream29 { grid-area: 21 / 2 / 22 / 5; }
