@@ -1,5 +1,5 @@
 body {
-    background-color: #ee8787;
+    background-color: #e0aa09;
     font-family: monospace;
     font-size: 16px;
     text-align: center;
@@ -7,7 +7,7 @@ body {
     background-repeat: repeat-xy; 
   }
   h1 {
-    color: #a82828;
+    color: #846507;
     text-align: left;
     font-size:20px
   }
@@ -15,16 +15,16 @@ body {
   color: rgba(33, 18, 3, 0.669);
   }
   a {
-  color: #ff0a53;
+  color: #ee6604;
   }
   
   .background{
-  background-color: #ffb199;
+  background-color: #ffd84d;
   width: 1000px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #ffe8ac;
+  border: 5px solid rgb(129, 79, 5);
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 25px;
@@ -47,5 +47,11 @@ body {
     height: auto;
     width:200px;
     background-color: #ffe3c4;
+    padding: 1px;
+  }
+  .textboxlab{
+    height: auto;
+    width:200px;
+    background-color: rgb(255, 255, 151);
     padding: 1px;
   }

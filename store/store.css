@@ -1,5 +1,5 @@
 body {
-    background-color: #ee8787;
+    background-color: rgb(125, 165, 198);
     font-family: monospace;
     font-size: 16px;
     text-align: center;
@@ -7,7 +7,7 @@ body {
     background-repeat: repeat-xy; 
   }
   h1 {
-    color: #a82828;
+    color: rgb(0, 59, 127);
     text-align: left;
     font-size:20px
   }
@@ -15,16 +15,16 @@ body {
   color: rgba(33, 18, 3, 0.669);
   }
   a {
-  color: #ff0a53;
+  color: #0015ff;
   }
   
   .background{
-  background-color: #ffb199;
+  background-color: rgb(214, 229, 248);
   width: 1000px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #ffe8ac;
+  border: 5px solid #304674;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 25px;
@@ -47,5 +47,25 @@ body {
     height: auto;
     width:200px;
     background-color: #ffe3c4;
+    padding: 1px;
+  }
+
+  .textbox2{
+    height: auto;
+    width:auto;
+    background-color: #ffe3c4;
+    padding: 1px;
+  }
+  .textboxshepherd{
+    height: auto;
+    width:200px;
+    background-color: rgb(169, 206, 255);
+    padding: 1px;
+  }
+
+  .textboxshepherd2{
+    height: auto;
+    width:auto;
+    background-color: rgb(169, 206, 255);
     padding: 1px;
   }
