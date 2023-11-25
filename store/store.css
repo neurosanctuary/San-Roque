@@ -69,6 +69,12 @@ body {
     background-color: rgb(169, 206, 255);
     padding: 1px;
   }
+  .textdream{
+    height: auto;
+    width:auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+  }
 
   .store {  display: grid;
     grid-template-columns: 100px 100px 300px 300px 100px;
@@ -143,35 +149,113 @@ margin-right:auto; margin-top:110px;}
 
   .dream {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 300px 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 200px 100px 350px 100px 200px; 
+    grid-template-rows: 90px 100px 170px 110px 50px 70px 95px 80px 40px 80px 155px 115px 80px 60px 80px 80px 60px 100px 60px 100px 150px; 
     gap: 0px 0px; 
   }
   .dream1 { grid-area: 1 / 1 / 6 / 6; }
   .dream2 { grid-area: 1 / 1 / 2 / 6; }
   .dream3 { grid-area: 2 / 3 / 3 / 6; }
-  .dream4 { grid-area: 3 / 1 / 4 / 4; }
-  .dream5 { grid-area: 4 / 3 / 5 / 6; }
+  .dream4 { grid-area: 3 / 1 / 4 / 4; 
+  margin-right:auto;}
+  .dream5 { grid-area: 4 / 3 / 5 / 6; 
+    margin-left:auto;}
   .dream6 { grid-area: 5 / 2 / 6 / 5; }
   .dream7 { grid-area: 6 / 2 / 7 / 5; }
-  .dream8 { grid-area: 7 / 1 / 14 / 2; }
-  .dream9 { grid-area: 7 / 5 / 14 / 6; }
-  .dream10 { grid-area: 7 / 2 / 8 / 5; }
-  .dream11 { grid-area: 8 / 2 / 9 / 5; }
-  .dream12 { grid-area: 9 / 2 / 10 / 5; }
-  .dream13 { grid-area: 10 / 2 / 11 / 5; }
-  .dream14 { grid-area: 11 / 2 / 12 / 5; }
-  .dream15 { grid-area: 12 / 2 / 13 / 5; }
-  .dream16 { grid-area: 13 / 2 / 14 / 5; }
-  .dream18 { grid-area: 14 / 2 / 15 / 5; }
-  .dream19 { grid-area: 15 / 2 / 16 / 5; }
-  .dream20 { grid-area: 16 / 2 / 17 / 5; }
-  .dream21 { grid-area: 17 / 2 / 18 / 5; }
-  .dream22 { grid-area: 18 / 2 / 19 / 5; }
-  .dream23 { grid-area: 19 / 2 / 20 / 5; }
-  .dream24 { grid-area: 20 / 2 / 21 / 5; }
-  .dream25 { grid-area: 14 / 1 / 21 / 2; }
-  .dream26 { grid-area: 14 / 5 / 21 / 6; }
+  .dream8 { grid-area: 7 / 1 / 14 / 2; 
+    margin-right:auto;}
+    .dream9 { grid-area: 7 / 4 / 14 / 6; 
+    margin-right:5px;}
+  .dream10 { grid-area: 7 / 3 / 8 / 4; }
+.dream11 { grid-area: 8 / 3 / 9 / 4; }
+.dream12 { grid-area: 9 / 3 / 10 / 4; }
+.dream13 { grid-area: 10 / 3 / 11 / 4; }
+.dream14 { grid-area: 11 / 3 / 12 / 4; }
+.dream15 { grid-area: 12 / 3 / 13 / 4; }
+.dream16 { grid-area: 13 / 3 / 14 / 4; }
+.dream18 { grid-area: 14 / 3 / 15 / 4; }
+.dream19 { grid-area: 15 / 3 / 16 / 4; }
+.dream20 { grid-area: 16 / 3 / 17 / 4; }
+.dream21 { grid-area: 17 / 3 / 18 / 4; }
+.dream22 { grid-area: 18 / 3 / 19 / 4; }
+.dream23 { grid-area: 19 / 3 / 20 / 4; }
+.dream24 { grid-area: 20 / 3 / 21 / 4; }
+.dream26 { grid-area: 14 / 4 / 21 / 6; }
+.dream25 { grid-area: 14 / 1 / 21 / 3; }
   .dream27 { grid-area: 21 / 1 / 22 / 2; }
   .dream28 { grid-area: 21 / 5 / 22 / 6; }
   .dream29 { grid-area: 21 / 2 / 22 / 5; }
+
+  .dis {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 300px 1fr; 
+    grid-template-rows: 80px 100px 100px 200px 300px; 
+    gap: 0px 0px; 
+  }
+  .dis1 { grid-area: 1 / 1 / 6 / 6; }
+  .dis2 { grid-area: 2 / 1 / 3 / 6; 
+  margin-left:170px;
+  margin-right:130px;}
+  .dis3 { grid-area: 4 / 1 / 5 / 6; 
+    margin-left:170px;
+  margin-right:420px;}
+  
+  .textdis{
+    height: auto;
+    width:auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    opacity: .95;
+  }
+
+  .small {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 300px 1fr; 
+    grid-template-rows: 150px 65px 200px 320px 50px 50px; 
+    gap: 0px 0px; 
+  }
+  .small1 { grid-area: 1 / 1 / 4 / 3; }
+  .small2 { grid-area: 1 / 3 / 2 / 6; 
+  margin-top:70px;
+margin-left:120px;}
+  .small3 { grid-area: 2 / 3 / 3 / 6; 
+    margin-left:120px;}
+  .small4 { grid-area: 3 / 3 / 4 / 6; margin-left:120px; }
+  .small5 { grid-area: 4 / 1 / 7 / 6; }
+  .small6 { grid-area: 5 / 1 / 6 / 6; }
+
+  .pursue {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 300px 1fr;
+    grid-template-rows: 60px 100px 120px 200px 100px 300px 200px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .pursue1 { grid-area: 1 / 1 / 6 / 6; }
+  
+  .pursue2 { grid-area: 6 / 1 / 8 / 4; }
+  
+  .pursue3 { grid-area: 1 / 1 / 2 / 6; 
+  margin-right:540px;}
+  
+  .pursue4 { grid-area: 2 / 1 / 3 / 6; 
+    margin-right:580px;
+    margin-left:100px;}
+  
+  .pursue5 { grid-area: 3 / 1 / 4 / 6; 
+    margin-left:600px;}
+  
+  .pursue6 { grid-area: 4 / 1 / 5 / 6;
+    margin-right:600px;}
+  
+  .pursue7 { grid-area: 5 / 1 / 6 / 6; 
+    margin-right:150px;
+    margin-left:150px;}
+  
+  .pursue8 { grid-area: 6 / 4 / 7 / 6; 
+  margin-top:100px;
+font-size:30px; }
+  
+  .pursue9 { grid-area: 7 / 4 / 8 / 6; 
+    font-size:16px;}
+  
