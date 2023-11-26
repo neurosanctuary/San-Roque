@@ -45,13 +45,272 @@ body {
 
   .textbox{
     height: auto;
-    width:200px;
+    width:auto;
     background-color: #ffe3c4;
     padding: 1px;
   }
+  .text{
+    height: auto;
+    width:auto;
+    background-color: #ffe3c4;
+    padding: 1px;
+    opacity: .95;
+  }
   .textboxlab{
     height: auto;
-    width:200px;
+    width:auto;
     background-color: rgb(255, 255, 151);
     padding: 1px;
   }
+  .office {
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 460px 120px 70px 60px 230px 150px 110px 80px 70px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "office1 office1 office1 office1 office1"
+      "office2 office2 office2 office2 office2"
+      "office3 office3 office3 office3 office3"
+      "office4 office4 office5 office6 office6"
+      "office4 office4 office5 office6 office6"
+      "office7 office7 office8 office8 office8"
+      "office7 office7 office9 office9 office9"
+      "office7 office7 office10 office10 office10"
+      "office7 office7 office11 office11 office11"; 
+  }
+  .office1 { grid-area: office1; }
+  .office2 { grid-area: office2; }
+  .office3 { grid-area: office3; }
+  .office4 { grid-area: office4; }
+  .office5 { grid-area: office5; }
+  .office6 { grid-area: office6; }
+  .office8 { grid-area: office8; 
+  margin-top:100px;}
+  .office9 { grid-area: office9; 
+    margin-left:50px;}
+  .office10 { grid-area: office10; 
+    margin-left: 150px;}
+  .office7 { grid-area: office7; }
+  .office11 { grid-area: office11; 
+    margin-left:60px;}
+
+    .inquiry {
+      display: grid; 
+      grid-auto-rows: 1fr; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-rows: 150px 450px 260px 50px 70px 90px 60px 50px; 
+      gap: 0px 0px; 
+    }
+    .inquiry1 { grid-area: 1 / 1 / 3 / 6; 
+    margin-right: 200px;}
+    .inquiry2 { grid-area: 1 / 1 / 2 / 6; 
+      margin-left: 400px;}
+    .inquiry3 { grid-area: 3 / 1 / 4 / 3; }
+    .inquiry4 { grid-area: 3 / 3 / 4 / 4; }
+    .inquiry5 { grid-area: 3 / 4 / 4 / 6; }
+    .inquiry6 { grid-area: 4 / 1 / 7 / 3; 
+    margin-top: auto;
+    margin-bottom: 90px;
+    margin-right:20px;
+    margin-left:20px;}
+    .inquiry7 { grid-area: 4 / 3 / 5 / 4; }
+    .inquiry8 { grid-area: 5 / 3 / 6 / 4; }
+    .inquiry9 { grid-area: 6 / 3 / 7 / 4; }
+    .inquiry10 { grid-area: 4 / 4 / 7 / 6; 
+      margin-top: auto;
+      margin-bottom: 90px;
+    margin-left:20px;
+    margin-right:20px;}
+    .inquiry11 { grid-area: 7 / 1 / 8 / 6; }
+    .inquiry12 { grid-area: 8 / 1 / 9 / 6; 
+      margin-right:100px;
+      margin-left:100px;}
+    .inquiry13 { grid-area: 2 / 1 / 3 / 6; 
+    margin-left: 600px;
+  margin-bottom:50px;}
+
+  .itis {
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 200px 140px 100px 200px 100px; 
+    gap: 0px 0px; 
+  }
+  .itsis1 { grid-area: 1 / 1 / 3 / 3; }
+  .itis2 { grid-area: 1 / 1 / 2 / 6; 
+  margin-top: 80px;
+margin-left: 450px;}
+  .itis3 { grid-area: 2 / 1 / 3 / 6; 
+    margin-bottom: 20px;
+    margin-left: 480px;
+    margin-right: 30px;}
+  .itis4 { grid-area: 3 / 4 / 6 / 6; }
+  .itis5 { grid-area: 4 / 1 / 5 / 6; 
+    margin-right: 400px;}
+  .itis6 { grid-area: 5 / 1 / 6 / 6; 
+    margin-right: 150px;}
+
+    .ghost {
+      display: grid; 
+      grid-auto-rows: 1fr; 
+      grid-template-columns: 1fr 1fr 100px 1fr 1fr; 
+      grid-template-rows: 320px 100px 260px 400px 10px 150px 200px; 
+      gap: 0px 0px; 
+    }
+    .ghost1 { grid-area: 1 / 1 / 2 / 3; margin-left:auto;}
+    .ghost2 { grid-area: 1 / 4 / 2 / 6; 
+    margin-right:auto;}
+    .ghost3 { grid-area: 2 / 1 / 3 / 4; 
+    margin-right: 60px;}
+    .ghost4 { grid-area: 2 / 3 / 3 / 6; 
+      margin-left: 60px;}
+    .ghost5 { grid-area: 3 / 1 / 4 / 6; }
+    .ghost6 { grid-area: 3 / 1 / 4 / 6; 
+    margin-top:60px;
+  margin-right: 130px;
+  margin-left: 100px;}
+    .ghost7 { grid-area: 4 / 1 / 6 / 6; 
+    margin-top:40px;}
+    .ghost8 { grid-area: 4 / 1 / 5 / 6; }
+    .ghost9 { grid-area: 6 / 1 / 8 / 3; 
+    margin-right:auto;}
+    .ghost10 { grid-area: 6 / 4 / 8 / 6; 
+      margin-left:auto;}
+    .ghost11 { grid-area: 6 / 1 / 7 / 6; 
+    margin-top:20px;
+    margin-right:300px;
+    margin-left:310px;}
+    .ghost12 { grid-area: 7 / 1 / 8 / 6;
+      margin-right:300px;
+    margin-left:310px; }
+
+    .california {
+      display: grid; 
+      grid-auto-rows: 1fr; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-rows: 120px 150px 300px; 
+      gap: 0px 0px; 
+    }
+    .califronia1 { grid-area: 1 / 1 / 4 / 6; 
+    margin-top: 80px;}
+    .california2 { grid-area: 1 / 1 / 2 / 6; 
+    margin-left: 50px;
+    margin-right: 50px;}
+    .california3 { grid-area: 2 / 1 / 3 / 6; 
+    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;}
+    .california4 { grid-area: 1 / 1 / 4 / 3; 
+      margin-top: 120px;
+      margin-right: 200px;
+    }
+.california5 { grid-area: 1 / 4 / 4 / 6; 
+  margin-top: 120px;
+  margin-left: 200px;}
+  
+  .home {
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 200px 150px 100px 100px 200px; 
+    gap: 0px 0px; 
+  }
+  .home1 { grid-area: 1 / 1 / 2 / 6; 
+  margin-top:100px;
+margin-right: 200px;}
+  .home2 { grid-area: 2 / 1 / 3 / 6; 
+    margin-right: 400px;}
+  .home3 { grid-area: 3 / 1 / 4 / 6; 
+    margin-left: 200px;}
+  .home4 { grid-area: 4 / 1 / 5 / 6; 
+    margin-left: 200px;}
+  .home5 { grid-area: 5 / 1 / 6 / 6; 
+    margin-left: 500px;}
+  .home6 { grid-area: 1 / 4 / 3 / 6; }
+  .home7 { grid-area: 4 / 1 / 6 / 3; }
+
+  .heart {
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .heart1 { grid-area: 1 / 1 / 9 / 6; }
+  .heart2 { grid-area: 1 / 1 / 2 / 6; 
+  margin-right: 500px;}
+  .heart3 { grid-area: 2 / 1 / 3 / 6; 
+  margin-left:100px;
+margin-right:600px;}
+  .heart4 { grid-area: 3 / 1 / 4 / 6; 
+    margin-left:300px;
+    margin-right:400px;}
+  .heart5 { grid-area: 4 / 1 / 5 / 6; 
+    margin-left:500px;
+    margin-right:200px;}
+  .heart6 { grid-area: 5 / 1 / 6 / 6; 
+    margin-left:600px;
+  }
+  .heart7 { grid-area: 6 / 1 / 7 / 6;
+    margin-left:150px;
+    margin-right:200px }
+  .heart8 { grid-area: 7 / 1 / 8 / 6; 
+    margin-left:250px;
+    margin-right:250px}
+  .heart9 { grid-area: 8 / 1 / 9 / 6; 
+    margin-left:50px;
+    margin-right:50px}
+
+    .restless {
+      display: grid; 
+      grid-auto-rows: 1fr; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-rows: 200px 300px 150px 50px 100px 160px 130px; 
+      gap: 0px 0px; 
+    }
+    .restless1 { grid-area: 1 / 1 / 8 / 6; 
+    margin-right:800px;}
+    .restless2 { grid-area: 1 / 1 / 8 / 6; 
+    margin-left:550px;
+  margin-top:300px;}
+    .restless3 { grid-area: 1 / 1 / 2 / 6; 
+      margin-top:100px;
+    margin-left:340px;
+    margin-right:300px;}
+    .restless4 { grid-area: 2 / 1 / 3 / 6; 
+      margin-left:340px;
+      margin-right:320px;}
+    .restless5 { grid-area: 3 / 1 / 8 / 6; 
+      margin-top:260px;}
+    .restless6 { grid-area: 3 / 1 / 4 / 6; 
+      margin-left:200px;
+      margin-right:370px;}
+    .restless7 { grid-area: 4 / 1 / 5 / 6; 
+      margin-left:100px;
+      margin-right:450px;}
+    .restless8 { grid-area: 7 / 1 / 8 / 6; 
+      margin-left:300px;
+      margin-right:300px;}
+
+.all {
+        display: grid; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 100px 260px 100px 100px 300px; 
+        gap: 0px 30px; 
+      }
+      .all1 { grid-area: 1 / 1 / 2 / 4; 
+      font-size:30px;
+    font-weight: 600;}
+      .all2 { grid-area: 2 / 1 / 3 / 2; }
+      .all3 { grid-area: 2 / 2 / 3 / 3; }
+      .all4 { grid-area: 2 / 3 / 3 / 4; }
+      .all5 { grid-area: 3 / 1 / 4 / 2; }
+      .all6 { grid-area: 3 / 2 / 4 / 3; }
+      .all7 { grid-area: 3 / 3 / 4 / 4; }
+      .all8 { grid-area: 4 / 1 / 6 / 4; }
+      .all9 { grid-area: 5 / 1 / 6 / 4; 
+      margin-top:120px;
+    margin-left:100px;
+  margin-right: 100px;}
