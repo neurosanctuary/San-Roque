@@ -1,5 +1,5 @@
 body {
-  background-color: #ee8787;
+  background-color: #c28bdc;
   font-family: monospace;
   font-size: 16px;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   background-repeat: repeat-xy; 
 }
 h1 {
-  color: #a82828;
+  color: #7f4aa4;
   text-align: left;
   font-size:20px
 }
@@ -15,16 +15,16 @@ p {
 color: rgba(33, 18, 3, 0.669);
 }
 a {
-color: #ff0a53;
+color: #7c00d5;
 }
 
 .background{
-background-color: #ffb199;
+background-color: #f4bff1;
 width: 1000px;
 height: auto;
 margin-left: auto;
 margin-right: auto;
-border: 5px solid #ffe8ac;
+border: 5px solid #765dcf;
 margin-top: 15px;
 margin-bottom: 15px;
 padding: 25px;
@@ -45,7 +45,65 @@ padding-top: 0px;
 
 .textbox{
   height: auto;
-  width:200px;
+  width:auto;
   background-color: #ffe3c4;
   padding: 1px;
 }
+
+.textboxxolo{
+  height: auto;
+  width:auto;
+  background-color: #ffe3c4;
+  padding: 1px;
+}
+
+.text{
+  height: auto;
+  width:auto;
+  background-color: #f0c6ee;
+  padding: 1px;
+  opacity:.95;
+}
+
+.bank {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 190px 140px 220px 100px 80px 80px 80px 150px 50px;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.bank1 { grid-area: 1 / 1 / 4 / 6; }
+.bank2 { grid-area: 1 / 1 / 2 / 6; 
+margin-top:auto;
+margin-right:400px;}
+.bank3 { grid-area: 3 / 1 / 4 / 6; 
+margin-left:500px;}
+.bank4 { grid-area: 4 / 1 / 5 / 4; 
+  margin-top:auto;
+margin-bottom: auto;
+margin-right:100px;}
+.bank5 { grid-area: 4 / 3 / 5 / 6;
+  margin-top:auto;
+  margin-bottom: auto; 
+  margin-left:100px;}
+.bank6 { grid-area: 5 / 1 / 6 / 4; 
+  margin-right:100px;}
+.bank7 { grid-area: 5 / 3 / 6 / 6; 
+  margin-left:100px;}
+.bank8 { grid-area: 6 / 1 / 10 / 6; }
+.bank9 { grid-area: 6 / 1 / 7 / 6; 
+  margin-left:300px;
+  margin-right:300px;}
+.bank10 { grid-area: 7 / 1 / 8 / 6; 
+  margin-right:550px;
+  margin-left:150px}
+.bank11 { grid-area: 8 / 1 / 9 / 6; 
+  margin-left:540px;
+  margin-right:140px;}
+.bank12 { grid-area: 9 / 1 / 10 / 6; 
+  margin-right:570px;
+  margin-left:100px;}
+.bank13 { grid-area: 10 / 1 / 11 / 6; 
+  margin-right:350px;
+  margin-left:350px;}
