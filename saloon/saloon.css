@@ -19,7 +19,7 @@ body {
   }
   
   .background{
-  background-color: #a7e585;
+  background-color: rgb(208, 224, 136);
   width: 1000px;
   height: auto;
   margin-left: auto;
@@ -52,14 +52,14 @@ body {
   .text{
     height: auto;
     width:auto;
-    background-color: #baf09d;
+    background-color: rgb(225, 241, 155);
     padding: 1px;
     opacity:.95;
   }
   .textboxsheep{
     height: auto;
     width:auto;
-    background-color: #d0fdc4;
+    background-color: rgb(227, 253, 114);
     padding: 1px;
   }
 

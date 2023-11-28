@@ -19,7 +19,7 @@ body {
   }
   
   .background{
-  background-color: #ffd84d;
+  background-color: rgb(249, 227, 119);
   width: 1000px;
   height: auto;
   margin-left: auto;
@@ -52,14 +52,14 @@ body {
   .text{
     height: auto;
     width:auto;
-    background-color: #ffe3c4;
+    background-color: rgb(249, 227, 119);
     padding: 1px;
     opacity: .95;
   }
   .textboxlab{
     height: auto;
     width:auto;
-    background-color: rgb(255, 255, 151);
+    background-color: rgb(255, 247, 172);
     padding: 1px;
   }
   .office {
