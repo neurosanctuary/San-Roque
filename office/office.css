@@ -19,12 +19,12 @@ body {
   }
   
   .background{
-  background-color: rgb(249, 227, 119);
+  background-color: #ffdf7c;
   width: 1000px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid rgb(129, 79, 5);
+  border: 5px solid #a46379;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 25px;
@@ -52,14 +52,14 @@ body {
   .text{
     height: auto;
     width:auto;
-    background-color: rgb(249, 227, 119);
+    background-color: rgb(250, 231, 138);
     padding: 1px;
     opacity: .95;
   }
   .textboxlab{
     height: auto;
     width:auto;
-    background-color: rgb(255, 247, 172);
+    background-color: #fdefc0;
     padding: 1px;
   }
   .office {
