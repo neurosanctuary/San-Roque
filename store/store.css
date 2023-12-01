@@ -72,8 +72,9 @@ body {
   .textdream{
     height: auto;
     width:auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 246, 255);
     padding: 1px;
+    opacity: .95;
   }
 
   .store {  display: grid;
@@ -203,7 +204,7 @@ margin-right:auto; margin-top:110px;}
   .textdis{
     height: auto;
     width:auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 246, 255);
     padding: 1px;
     opacity: .95;
   }
