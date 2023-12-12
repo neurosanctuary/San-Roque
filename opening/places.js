@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!list.includes(page)) { 
         list.push(page)
         window.localStorage.setItem("list", JSON.stringify(list))
+        window.alert(list)
         //if page is not in list, it is now added to list.
     }
 
