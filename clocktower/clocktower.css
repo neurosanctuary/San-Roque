@@ -20,12 +20,12 @@ body {
   }
   
   .background{
-  background-color: #ef8162;
+  background-color: #d79595;
   width: 1000px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #c2bca2;
+  border: 5px solid #f0d5d5;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 25px;
@@ -61,7 +61,7 @@ body {
   .text{
     height: auto;
     width:auto;
-    background-color: #fc9478;
+    background-color: #e3a6a6;
     padding: 1px;
     opacity: .95;
   }
@@ -625,3 +625,263 @@ margin-right:140px;}
 font-size:25px;
 font-style: italic;}
   
+.ihatesteps {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.ihatesteps1 { grid-area: 1 / 1 / 2 / 4; }
+
+.ihatesteps2 { grid-area: 1 / 1 / 2 / 4; 
+margin-top:270px;
+margin-right:150px;
+font-style: oblique;
+font-variant: small-caps;
+font-size: 30px;}
+
+.stepped {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.stepped1 { grid-area: 1 / 1 / 2 / 4; }
+
+.stepped2 { grid-area: 1 / 1 / 2 / 4; 
+font-style: italic;
+margin-top:50px;
+margin-left:50px;
+margin-right:50px;}
+
+.stepped3 { grid-area: 1 / 1 / 2 / 4; 
+margin-top:150px;
+font-size: 25px;
+margin-left:50px;}
+
+.end {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 700px;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.end1 { grid-area: 1 / 1 / 2 / 4;
+margin-left:500px; }
+
+.end2 { grid-area: 1 / 1 / 2 / 4; 
+  margin-left:0px;
+margin-top:400px;}
+
+.end3 { grid-area: 1 / 1 / 2 / 4; 
+margin-top:10px;
+margin-left: 50px;
+margin-right: 500px;}
+
+.end4 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:70px;
+  margin-left: 130px;
+  margin-right: 400px;} 
+
+.end5 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:130px;
+  margin-left: 300px;
+  margin-right: 300px; }
+
+.end6 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top:190px;
+  margin-left: 400px;
+  margin-right: 200px;}
+
+.end7 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:250px; 
+  margin-left: 200px;
+  margin-right: 100px;}
+
+.end8 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:360px;
+  margin-left: 100px;
+  margin-right: 500px; }
+
+.end9 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:460px;
+  margin-left: 0px;
+  margin-right: 650px; }
+
+
+  .myguilt {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1230px;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .myguilt1 { grid-area: 1 / 1 / 2 / 4;margin-top:180px; 
+  margin-right:900px;}
+  
+  .myguilt2 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:200px;
+  margin-left:780px; }
+  
+  .myguilt3 { grid-area: 1 / 1 / 2 / 4; 
+  margin-left:100px;}
+  
+  .myguilt4 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:750px;}
+  
+  .myguilt5 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:10px;
+  margin-left: 00px;
+margin-right:500px;}
+  
+  .myguilt6 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:70px;
+    margin-left: 200px;
+    margin-right:00px; }
+  
+  .myguilt7 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:150px;
+    margin-left: 340px;
+    margin-right:420px; }
+  
+  .myguilt8 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:210px;
+    margin-left: 400px;
+    margin-right:250px;}
+  
+  .myguilt9 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:270px;
+    margin-left: 300px;
+    margin-right:120px;}
+  
+  .myguilt10 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:370px; 
+    margin-left: 700px;
+    margin-right:00px;}
+  
+  .myguilt11 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:430px;
+    margin-left: 350px;
+    margin-right:50px;}
+  
+  .myguilt12 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:545px; 
+    margin-left: 200px;
+    margin-right:200px;}
+  
+  .myguilt13 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:605px; }
+  
+  .myguilt14 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:690px;
+    margin-left: 150px;
+    margin-right:150px;}
+  
+  .myguilt15 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:830px; 
+    margin-left: 00px;
+    margin-right:700px;
+  }
+  
+  .myguilt16 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:980px;
+    margin-left: 700px;
+    margin-right:0px;}
+  
+  .myguilt17 { grid-area: 1 / 1 / 2 / 4; 
+    margin-top:1150px;}
+  
+
+    .thetop {  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 900px;
+      grid-auto-rows: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+    }
+    
+    .thetop1 { grid-area: 1 / 1 / 2 / 4;
+    margin-left:400px; }
+    
+    .thetop2 { grid-area: 1 / 1 / 2 / 4;
+      margin-top:170px; 
+    margin-right:500px;}
+    
+    .thetop3 { grid-area: 1 / 1 / 2 / 4; 
+      margin-top:900px;}
+    
+    .thetop4 { grid-area: 1 / 1 / 2 / 4;
+      margin-top:0px;
+    font-size: 20px; 
+  text-align: left;
+margin-left: 100px;}
+    
+    .thetop5 { grid-area: 1 / 1 / 2 / 4; 
+      margin-top:260px;
+
+    margin-left: 600px;}
+    
+    .thetop6 { grid-area: 1 / 1 / 2 / 4; 
+      margin-top:460px;
+
+      margin-left:450px;}
+    
+    .thetop7 { grid-area: 1 / 1 / 2 / 4; 
+      margin-top:650px;
+    font-size: 20px;
+    margin-left:700px;}
+    .thetop8 { grid-area: 1 / 1 / 2 / 4;
+      margin-top:700px;
+    font-size: 20px;
+    margin-left:600px;
+    }
+.thetop9 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top:750px;
+  font-size: 20px;
+  margin-left:500px;}
+.thetop10 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top:800px;
+  font-size: 20px;
+  margin-left:400px;}
+.thetop11 { grid-area: 1 / 1 / 2 / 4; 
+margin-top:850px;
+font-size: 20px;
+margin-left:300px;}
+
+
+.beginning {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 980px;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.beginning1 { grid-area: 1 / 1 / 2 / 4;
+margin-right: auto; }
+
+.beginning2 { grid-area: 1 / 1 / 2 / 4; 
+margin-top: 140px;
+margin-left:560px;}
+
+.beginning3 { grid-area: 1 / 1 / 2 / 4;
+  margin-top: 400px;
+margin-right:800px; }
+
+.beginning4 { grid-area: 1 / 1 / 2 / 4; 
+margin-top: 60px;
+margin-left:300px;}
+
+.beginning5 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top: 300px;
+margin-right:200px;}
+
+.beginning6 { grid-area: 1 / 1 / 2 / 4;
+  margin-top: 700px;
+  margin-left:600px; }
