@@ -1,5 +1,5 @@
 body {
-  background-color: #ee8787;
+  background-color:#ddd7e1;
   font-family: monospace;
   font-size: 16px;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   background-repeat: repeat-xy; 
 }
 h1 {
-  color: #a82828;
+  color: #b45570;
   text-align: left;
   font-size:20px
 }
@@ -15,16 +15,16 @@ p {
 color: rgba(33, 18, 3, 0.669);
 }
 a {
-color: #ff0a53;
+color: #fd1212;
 }
 
 .background{
-background-color: #ffb199;
+background-color: #fcf9fd;
 width: 1000px;
 height: auto;
 margin-left: auto;
 margin-right: auto;
-border: 5px solid #ffe8ac;
+border: 5px solid #938589;
 margin-top: 15px;
 margin-bottom: 15px;
 padding: 25px;
@@ -49,3 +49,46 @@ padding-top: 0px;
   background-color: #ffe3c4;
   padding: 1px;
 }
+.text{
+  height: auto;
+  width:200px;
+  background-color:#faedff;
+  padding: 1px;
+  opacity: .95;
+}
+.textbiscuit{
+  height: auto;
+  width:200px;
+  background-color: #c9b9b9;
+  padding: 1px;
+}
+
+.decide{
+  margin-left: auto;
+margin-right: auto;
+  height: auto;
+  width:auto;
+  padding: 1px;
+  font-size: 20px;
+}
+.decide {
+  display: grid; 
+  grid-auto-rows: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+}
+.decide1 { grid-area: 1 / 1 / 2 / 4;
+margin-top:20px; 
+margin-left: auto;
+margin-right: auto;}
+.decide2 { grid-area: 1 / 1 / 2 / 4;
+  margin-top:80px; }
+.decide3 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top:270px;}
+  .decide4 { grid-area: 1 / 1 / 2 / 4;
+    margin-top:60px;
+  margin-right:600px; }
+.decide5 { grid-area: 1 / 1 / 2 / 4; 
+  margin-top:60px;
+  margin-left:600px;}
