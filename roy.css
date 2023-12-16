@@ -69,18 +69,19 @@ padding-top: 0px;
 }
 
 .roy1 { grid-area: 1 / 1 / 2 / 4; margin-right:500px;
-margin-top:100px;}
+margin-top:180px;}
 
 .roy2 { grid-area: 1 / 1 / 2 / 4; 
 margin-top:100px;
 margin-left:400px;}
 .roy3 { grid-area: 1 / 1 / 2 / 4; }
 
-.roy4 { grid-area: 1 / 1 / 2 / 4; margin-top:500px;
+.roy4 { grid-area: 1 / 1 / 2 / 4; margin-top:580px;
 margin-right:500px;}
 
 .roy5 { grid-area: 1 / 1 / 2 / 4; 
 margin-top:50px;
 font-size:25px;}
 .roy6 { grid-area: 1 / 1 / 2 / 4; 
-margin-top:560px;}
+margin-top:770px;
+font-size:25px;}
